@@ -1,0 +1,18 @@
+
+
+// sempre que entrar em uma máquina nova, configurar o usuário (só faz uma vez)
+git config --global user.name
+git config --global user.email
+
+//1. clonar um projeto (só faz 1x)
+git clone https://github.... (o repositório a ser clonado)
+
+//2. entrar na pasta
+cd nome_da_pasta
+
+//3. abrir o vscode
+code .
+
+//4. (git add .) ou (git add nome_do_arquivo)
+
+//5. git commit -m "descrever conteúdo adicionado"
