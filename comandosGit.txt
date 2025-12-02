@@ -16,3 +16,5 @@ code .
 //4. (git add .) ou (git add nome_do_arquivo)
 
 //5. git commit -m "descrever conteúdo adicionado"
+
+//6. git push origin main

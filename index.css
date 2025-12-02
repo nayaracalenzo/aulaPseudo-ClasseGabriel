@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  height: 100vh;
+  background-color: aqua;
+} */
+
+header {
+  background-color: #946697;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+main {
+  padding-top: 10px;
+  position: relative;
+  background-image: url('./R.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; /* viewport - janela de visualização */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blueviolet;
+  flex-wrap: wrap;
+}
+
+input:focus {
+  border: 2px solid #000;
+}
+
+button {
+  padding: 3px 10px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #946697;
+}
+
+button:active {
+  border: 2px solid #fff;
+}
+
+button:hover {
+  /* opacity: 85%; */
+  background-color: #de80e5;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+}
+
+.terceiro-btn {
+  background-color: #10a73b;
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  padding: 0;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+
+.terceiro-btn > i {
+  width: 16px;
+}
+
+
